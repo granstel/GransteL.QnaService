@@ -18,7 +18,7 @@ namespace GransteL.QnaService.Tests
             var configuration = new QnaConfiguration
             {
                 UrlFormat = "https://westus.api.cognitive.microsoft.com/qnamaker/v2.0/knowledgebases/{0}/generateAnswer",
-                Token = "%CHATBOT_QNA_TOKEN%",
+                Token = "%QNA_TOKEN%",
                 KnowledgeBase = "your-kb-id"
             };
 
