@@ -2,8 +2,10 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoFixture;
 using GransteL.QnaService.Extensions;
-using GransteL.QnaService.Serialization;
+using Moq;
+using NUnit.Framework;
 using RestSharp;
 
 namespace GransteL.QnaService.Tests

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Threading.Tasks;
+using GransteL.QnaService.Extensions;
 using GransteL.QnaService.Interfaces;
 using GransteL.QnaService.Models;
+using NLog;
 
 namespace GransteL.QnaService
 {

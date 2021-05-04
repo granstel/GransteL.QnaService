@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
-using GransteL.QnaService.Serialization;
+using NUnit.Framework;
 using RestSharp;
 
 namespace GransteL.QnaService.Tests
 {
     [TestFixture]
-    public class QnaServiceTests
+    public class QnaServiceIntegrationTests
     {
         private QnaService _target;
 

@@ -1,7 +1,7 @@
 ﻿using GransteL.QnaService.Extensions;
 using RestSharp.Serializers;
 
-namespace GransteL.QnaService.Serialization
+namespace GransteL.QnaService
 {
     public class CustomJsonSerializer : ISerializer
     {

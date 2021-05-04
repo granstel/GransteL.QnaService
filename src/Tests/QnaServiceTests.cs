@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
+using AutoFixture;
 using GransteL.QnaService.Interfaces;
 using GransteL.QnaService.Models;
+using Moq;
+using NUnit.Framework;
 
 namespace GransteL.QnaService.Tests
 {

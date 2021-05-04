@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using GransteL.QnaService.Extensions;
 using GransteL.QnaService.Interfaces;
 using GransteL.QnaService.Models;
-using GransteL.QnaService.Serialization;
 using NLog;
 using RestSharp;
 
